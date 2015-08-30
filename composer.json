@@ -1,0 +1,22 @@
+{
+        "name": "tiagocardosos/yii2-message",
+        "description": "Criando widget teste.",
+        "keywords": ["yii", "message"],
+        "type": "yii2-extension",
+        "license": "MIT",
+		"support": {
+			"source": "https://github.com/tiagocardosos/yii2-message"
+		},        
+        "authors": [
+                {
+                        "name": "Tiago Cardoso",
+                        "email": "tiagocardosos@gmail.com"
+                }
+        ],
+		"require": {
+			"yiisoft/yii2": "*"
+		},
+		"autoload": {
+			"psr-4": { "tiagocardosos\\message\\": "" }
+		}
+}
