@@ -13,10 +13,11 @@
                         "email": "tiagocardosos@gmail.com"
                 }
         ],    
-		"require": {
-			"php": ">=5.4.0",
-		},
-		"autoload": {
-			"psr-4": { "tiagocardosos\\message\\": "" }
-		}
+		"minimum-stability": "dev",        
+        "require": {
+                "yiisoft/yii2": "*"                
+        },    
+        "autoload": {
+                "psr-4": { "tiagocardosos\\message\\": "" }
+        }
 }
